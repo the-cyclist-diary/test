@@ -1,0 +1,15 @@
++++
+title = "Test article"
+date = "2024-11-14"
+draft = "false"
++++
+
+
+Ceci est un test, ça marche ?!
+
+## Sous-titre
+Et une image : 
+{{< gallery class="content-gallery" btn="1">}}
+{{< img src="https://github.com/user-attachments/assets/8a82bc0e-e59e-48ee-98a6-b9cd537aeb8c"> >}}
+{{< /gallery >}}
+
