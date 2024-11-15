@@ -1,7 +1,6 @@
 ---
 name: Nouvel article
-about: |
-  Création d'un nouvel article.  
+description: "Création d'un nouvel article"
 assignees: ibethus
 body:
   - type: markdown
