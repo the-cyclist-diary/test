@@ -4,14 +4,15 @@ about: |
   Création d'un nouvel article.  
 assignees: ibethus
 body:
-- type: markdown
-  attributes:
-    value: |
-      "## Création d'un article"
-      
-      * le label désigne l'aventure liée
-      * le milestone doit être "article"
-      * un fichier GPX peut être inclu dans le body avec le tag :gpx: suivi du fichier uploadé avec l'extension .zip
+  - type: markdown
+    id: hint
+    attributes:
+      value: |
+        "## Création d'un article"
+        
+        * le label désigne l'aventure liée
+        * le milestone doit être "article"
+        * un fichier GPX peut être inclu dans le body avec le tag :gpx: suivi du fichier uploadé avec l'extension .zip
   - type: input
     id: date
     attributes:
