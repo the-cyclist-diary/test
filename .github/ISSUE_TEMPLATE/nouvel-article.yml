@@ -16,8 +16,8 @@ body:
     id: date
     attributes:
       label: "Date de l'article"
-      description: "Date au format AAAA/MM/JJ, si vide, utilisation de la date du jour"
-      placeholder: "2024/10/25"
+      description: "Date au format AAAA-MM-JJ, si vide, utilisation de la date du jour"
+      placeholder: "2024-10-25"
     validations:
       required: false
   - type: textarea
